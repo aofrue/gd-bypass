@@ -1,0 +1,85 @@
+> ✅ GoodByeDPI
+
+Cсылка на релизы (Скачивание): https://github.com/ValdikSS/GoodbyeDPI/releases
+
+> ☝ ВАЖНО: GoodByeDPI может не работать на Windows ниже 10. Тоесть на Windows 7, Windows 8, Windows 8.1 работать GoodByeDPI, скорее всего, не будет!
+
+> ☝ ВАЖНО: Отключаем антивирусы полностью (в том числе Защитник Windows). Если у вас какой-либо файл не открывается и выводит ошибку на подобии: "Нет доступа к файлу", то значит у вас работает антивирус до сих пор.
+
+> Гайд:
+
+1. Скачиваем архив (goodbyedpi-(тут версия последняя должна быть написана).zip) с репозитория (ссылка выше) и распаковываем в любое удобное место.
+2. Заходим в папку с GoodByeDPI, в этой папке находим файл "russia-blacklist.txt", заходим в него
+3. Добавляем следующие строчки:
+
+cloudflare-ech.com
+cfl.re
+cloudflare-dns.com
+cloudflare-ech.com
+cloudflare-cn.com
+cloudflareanycast.net
+cloudflarechina.cn
+cloudflarecn.net
+cf-ipfs.com
+cloudflare-ipfs.com
+cloudflare.net
+cloudflare.com
+cloudflareresolve.com
+ns1.ungrounded.net
+ns2.ungrounded.net
+51.79.77.157
+144.217.190.192
+198.50.172.48
+dis.gd
+discord-attachments-uploads-prd.storage.googleapis.com
+discord.app
+discord.co
+discord.com
+discord.design
+discord.dev
+discord.gift
+discord.gifts
+discord.gg
+discord.media
+discord.new
+discord.store
+discordapp.com
+discordcdn.com
+discordmerch.com
+discordpartygames.com
+discordsays.com
+discordsez.com
+discord-activities.com
+discordactivities.com
+stable.dl2.discordapp.net
+geometrydash.com
+www.geometrydash.com
+boomlings.com
+www.boomlings.com
+newgrounds.com
+www.newgrounds.com
+
+> ☝ ВАЖНО: Содержимое файла (по умолчанию) удалять не нужно!!! Мы только добавляем новые строчки!!!
+
+4. Сохраняем файл, заходим в корневую папку GoodByeDPI и запускаем файлы, в названии которых есть "russia", по очереди, пока не начнут грузиться уровни в Geometry Dash.
+
+Проще говоря, запустили один файл (например, "1_russia_blacklist.cmd"), после чего заходим в Geometry Dash. Не сработало? Закрываем этот файлик и открываем следующий. И так, пока уровни не начнут грузиться.
+
+5. Готово
+
+> ➕ Плюсы GoodByeDPI:
+
+Работает с этим способом почти всё. Скорость интернета никак не меняется. Можно поставить на постоянную основу. Вот краткий гайд как (нужно, чтобы хоть один файл работал):
+
+1. Запускаем файл "service_install_(ТУТ НАЗВАНИЕ ВАШЕГО РАБОЧЕГО ФАЙЛА).cmd" от имени администратора (ВАЖНО)
+2. Нажимаем "Enter"
+3. После этих действий GoodByeDPI будет работать всегда.
+
+> ➖ Минусы GoodByeDPI:
+
+Возможно, музыка не будет скачиваться. Также способ не у всех будет работать, всё зависит от "настроения Роскомнадзора" и вашего провайдера.
+
+> ❔ Вопросы и ответы:
+
+A: Как удалить GoodByeDPI? (Не удаляется папка)
+B: Закрываем GoodByeDPI (если запущен через файлик, иначе пропускаем этот шаг), заходим в файл "service_remove.cmd", нажимаем "Enter", ждём. После этого папку можно удалить.
